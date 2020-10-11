@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61094BB52533889E00D6DA5B /* NewsBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61094BB42533889E00D6DA5B /* NewsBlock.swift */; };
+		61094BBC253389CC00D6DA5B /* news_Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61094BBB253389CC00D6DA5B /* news_Block.swift */; };
+		61094BC725338A3100D6DA5B /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61094BC625338A3100D6DA5B /* NewsFeed.swift */; };
 		AFAF3CD82523B86A00BF9D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF3CD72523B86A00BF9D48 /* AppDelegate.swift */; };
 		AFAF3CDA2523B86A00BF9D48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF3CD92523B86A00BF9D48 /* SceneDelegate.swift */; };
 		AFAF3CDC2523B86A00BF9D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF3CDB2523B86A00BF9D48 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61094BB42533889E00D6DA5B /* NewsBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsBlock.swift; path = ../../NewsBlock.swift; sourceTree = "<group>"; };
+		61094BBB253389CC00D6DA5B /* news_Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = news_Block.swift; sourceTree = "<group>"; };
+		61094BC625338A3100D6DA5B /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
 		AFAF3CD42523B86A00BF9D48 /* Rugby Federation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rugby Federation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAF3CD72523B86A00BF9D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFAF3CD92523B86A00BF9D48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61094BB9253388A900D6DA5B /* swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				61094BBB253389CC00D6DA5B /* news_Block.swift */,
+				61094BC625338A3100D6DA5B /* NewsFeed.swift */,
+			);
+			path = swiftui;
+			sourceTree = "<group>";
+		};
 		AFAF3CCB2523B86A00BF9D48 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +116,8 @@
 		AFAF3CD62523B86A00BF9D48 /* Rugby Federation */ = {
 			isa = PBXGroup;
 			children = (
+				61094BB42533889E00D6DA5B /* NewsBlock.swift */,
+				61094BB9253388A900D6DA5B /* swiftui */,
 				AFAF3CD72523B86A00BF9D48 /* AppDelegate.swift */,
 				AFAF3CD92523B86A00BF9D48 /* SceneDelegate.swift */,
 				AFAF3CDB2523B86A00BF9D48 /* ViewController.swift */,
@@ -263,9 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFAF3CDC2523B86A00BF9D48 /* ViewController.swift in Sources */,
+				61094BB52533889E00D6DA5B /* NewsBlock.swift in Sources */,
+				61094BBC253389CC00D6DA5B /* news_Block.swift in Sources */,
 				AFAF3CD82523B86A00BF9D48 /* AppDelegate.swift in Sources */,
 				AFAF3CE22523B86A00BF9D48 /* Rugby_Federation.xcdatamodeld in Sources */,
 				AFAF3CDA2523B86A00BF9D48 /* SceneDelegate.swift in Sources */,
+				61094BC725338A3100D6DA5B /* NewsFeed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
