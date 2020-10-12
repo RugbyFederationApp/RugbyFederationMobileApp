@@ -10,9 +10,14 @@ import SwiftUI
 
 struct NewsFeed: View {
     var body: some View {
-		ScrollView(.vertical){
-			news_Block()
-				.scaledToFit()
+		NavigationView {
+			List(NewsInfo) { landmark in
+				NavigationLink(destination: NewsDetail(News: landmark)) {
+					NewsRow()
+					//LandmarkRow(landmark: landmark)
+				}
+			}
+			.navigationBarTitle(Text("News"), displayMode: .inline)
 		}
     }
 }
