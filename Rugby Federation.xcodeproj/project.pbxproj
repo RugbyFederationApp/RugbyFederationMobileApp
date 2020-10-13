@@ -50,10 +50,10 @@
 		61094BD62535148800D6DA5B /* NewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRow.swift; sourceTree = "<group>"; };
 		61094BDE2535158400D6DA5B /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
 		61094BE32535163C00D6DA5B /* newsJsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsJsonParser.swift; sourceTree = "<group>"; };
-		61094BF225351A7A00D6DA5B /* newsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newsData.json; sourceTree = "<group>"; };
-		61094BFF25351CE100D6DA5B /* regbynews1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = regbynews1.jpg; sourceTree = "<group>"; };
-		615ACAE42536381C00ADC148 /* newsend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newsend.jpg; sourceTree = "<group>"; };
-		615ACAF2253640FB00ADC148 /* regbynews2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = regbynews2.jpg; sourceTree = "<group>"; };
+		61094BF225351A7A00D6DA5B /* newsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = newsData.json; path = "Rugby Federation/Resources/newsData.json"; sourceTree = SOURCE_ROOT; };
+		61094BFF25351CE100D6DA5B /* regbynews1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = regbynews1.jpg; path = "Rugby Federation/Resources/regbynews1.jpg"; sourceTree = SOURCE_ROOT; };
+		615ACAE42536381C00ADC148 /* newsend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newsend.jpg; path = "Rugby Federation/Resources/newsend.jpg"; sourceTree = SOURCE_ROOT; };
+		615ACAF2253640FB00ADC148 /* regbynews2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = regbynews2.jpg; path = "Rugby Federation/Resources/regbynews2.jpg"; sourceTree = SOURCE_ROOT; };
 		AFAF3CD42523B86A00BF9D48 /* Rugby Federation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rugby Federation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAF3CD72523B86A00BF9D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFAF3CD92523B86A00BF9D48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,8 +116,9 @@
 				615ACAF2253640FB00ADC148 /* regbynews2.jpg */,
 				615ACAE42536381C00ADC148 /* newsend.jpg */,
 			);
-			path = Resources;
-			sourceTree = "<group>";
+			name = Resources;
+			path = "Rugby Federation/Resources";
+			sourceTree = SOURCE_ROOT;
 		};
 		AFAF3CCB2523B86A00BF9D48 = {
 			isa = PBXGroup;
