@@ -21,11 +21,12 @@ struct NewsDetail: View {
 				News.image
 				 .resizable()
 				 .aspectRatio(contentMode: .fill)
-				 .padding()
+					.padding(.horizontal)
 			 
 				Text(News.newstext)
 				 .font(.body)
 				 .fixedSize(horizontal: false, vertical: true)
+					.padding()
 		 }
 		 .scaledToFit()
 		 }

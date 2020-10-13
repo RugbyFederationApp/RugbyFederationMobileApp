@@ -11,13 +11,13 @@ import SwiftUI
 struct NewsFeed: View {
     var body: some View {
 		NavigationView {
-			List(NewsInfo) { landmark in
-				NavigationLink(destination: NewsDetail(News: landmark)) {
-					NewsRow()
-					//LandmarkRow(landmark: landmark)
+			List(NewsInfo) { newsID in
+				NavigationLink(destination: NewsDetail(News: newsID)) {
+					NewsRow(News: newsID)
 				}
 			}
-			.navigationBarTitle(Text("News"), displayMode: .inline)
+			.navigationBarTitle("")
+			.navigationBarHidden(true)
 		}
     }
 }
