@@ -10,7 +10,9 @@ import UIKit
 import SwiftUI
 import CoreLocation
 
-let NewsInfo: [news] = load("newsData.json")
+//в душе не ебу блять че тут происходит, весь класс был спизжен из example проекта от эпл
+//тупо выпихивает все значения из джсона указанного в load
+let NewsInfo: [news] = load("newsData.json") //пихает все значения из джсона в класс news
 
 func load<T: Decodable>(_ filename: String) -> T {
 	let data: Data
