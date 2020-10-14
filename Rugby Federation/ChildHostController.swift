@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-class ChildHostingController: UIHostingController<NewsFeed> {
+class ChildHostController: UIHostingController<NewsFeed> {
 
 	required init?(coder: NSCoder) {
 		super.init(coder: coder,rootView: NewsFeed());

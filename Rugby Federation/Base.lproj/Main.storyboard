@@ -207,10 +207,10 @@
             </objects>
             <point key="canvasLocation" x="1601" y="883"/>
         </scene>
-        <!--Hosting Controller-->
+        <!--Child Host Controller-->
         <scene sceneID="HHF-Mz-Rxa">
             <objects>
-                <hostingController id="4Kk-FY-AWS" sceneMemberID="viewController"/>
+                <hostingController id="4Kk-FY-AWS" customClass="ChildHostController" customModule="Rugby_Federation" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vBM-sJ-1H4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-449" y="-38"/>
