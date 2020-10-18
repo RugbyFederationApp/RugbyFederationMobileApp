@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6107B203253C0A9900E07ECC /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6107B202253C0A9900E07ECC /* URLImage */; };
 		61094BC725338A3100D6DA5B /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61094BC625338A3100D6DA5B /* NewsFeed.swift */; };
 		61094BCF2535132600D6DA5B /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61094BCE2535132600D6DA5B /* NewsDetail.swift */; };
 		61094BD72535148800D6DA5B /* NewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61094BD62535148800D6DA5B /* NewsRow.swift */; };
@@ -78,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6107B203253C0A9900E07ECC /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +196,9 @@
 			dependencies = (
 			);
 			name = "Rugby Federation";
+			packageProductDependencies = (
+				6107B202253C0A9900E07ECC /* URLImage */,
+			);
 			productName = "Rugby Federation";
 			productReference = AFAF3CD42523B86A00BF9D48 /* Rugby Federation.app */;
 			productType = "com.apple.product-type.application";
@@ -266,6 +271,9 @@
 				Base,
 			);
 			mainGroup = AFAF3CCB2523B86A00BF9D48;
+			packageReferences = (
+				6107B201253C0A9900E07ECC /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = AFAF3CD52523B86A00BF9D48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -651,6 +659,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6107B201253C0A9900E07ECC /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6107B202253C0A9900E07ECC /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6107B201253C0A9900E07ECC /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		AFAF3CE02523B86A00BF9D48 /* Rugby_Federation.xcdatamodeld */ = {

@@ -15,7 +15,7 @@ struct news: Hashable, Codable, Identifiable {
 	var newstitle: String //тайтл новости, отображается в фиде
 	fileprivate var imageName: String //названия новостной фотки (указывается стринг и newsJsonParser.swift преабразует в тип Image)
 	var newstext: String // содержание новости
-	
+	var imageurl: String
 
 }
 

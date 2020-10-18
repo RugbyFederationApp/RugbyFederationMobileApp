@@ -7,20 +7,28 @@
 //
 
 import SwiftUI
-
+import URLImage
 struct NewsRow: View {
 	
 	var News: news
 	
     var body: some View {
-		VStack {
+		let url = URL(string: News.imageurl)
+		VStack(alignment: .center) {
 			Text(News.newstitle)
 				.font(.system(size: 20, weight: .heavy, design: .default))
 				.fixedSize(horizontal: false, vertical: true)
-			News.image
+			URLImage(url!){ proxy in
+				proxy.image
+					.resizable()
+					.scaledToFit()
+					.padding(.horizontal)
+			}
+			
+			/*News.image
 				.resizable()
 				.scaledToFit()
-				.padding(.horizontal)
+				.padding(.horizontal)*/
 				//.aspectRatio(contentMode: .fit)
 				//.padding(.leading)
 				//.offset(x: 0, y: -20)

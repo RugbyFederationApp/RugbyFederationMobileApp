@@ -8,10 +8,11 @@
 
 import Foundation
 import SwiftUI
+import URLImage
 
 class ChildHostController: UIHostingController<NewsFeed> {
-
 	required init?(coder: NSCoder) {
+		
 		super.init(coder: coder,rootView: NewsFeed());
 	}
 
