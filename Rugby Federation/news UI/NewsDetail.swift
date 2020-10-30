@@ -52,7 +52,7 @@ struct NewsDetail: View {
 					.padding()
 		 }
 		 .scaledToFit()
-		 }
+		}
     }
 }
 
